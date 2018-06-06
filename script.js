@@ -42,3 +42,32 @@ function findAvg(a,b) {
     var answer = ( a + b ) / 2 ;
     return answer;
 }
+
+// Create an array called fruits
+//The fruits array should have three fruits
+let fruits = ['apple','orange','grape'];
+
+// Declare a global variable named favFruit using the let keyword.
+let favFruit ;
+
+// Create a function declaration that will print the first fruit in the fruits array
+
+printFruits();
+
+function printFruits() {
+     favFruit = (fruits[2]);
+    console.log(fruits[0]);
+}
+
+
+// Declare another function that will print your favorite fruit.
+
+
+function printFruits2() {
+    console.log(favFruit);
+}
+
+
+//Call the function
+
+printFruits2();
